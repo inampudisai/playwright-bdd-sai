@@ -1,0 +1,8 @@
+node_modules/
+/test-results/
+/playwright/.cache/
+features
+assets
+@rerun.txt
+.DS_Store
+index.html

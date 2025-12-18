@@ -1,0 +1,29 @@
+{
+  "name": "Cucumber-Playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf test-results screenshots cucumber-report",
+    "pretest": "npx ts-node src/helper/init.ts",
+    "test": "cucumber-js test || true",
+    "posttest": "npx ts-node src/helper/report.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.4.0",
+    "@playwright/test": "^1.43.0",
+    "@serenity-js/console-reporter": "^3.21.2",
+    "@serenity-js/core": "^3.21.2",
+    "@serenity-js/playwright": "^3.21.2",
+    "@serenity-js/playwright-test": "^3.21.2",
+    "@serenity-js/serenity-bdd": "^3.21.2",
+    "@serenity-js/web": "^3.21.2",
+    "@types/node": "^20.12.6",
+    "fs-extra": "^11.2.0",
+    "multiple-cucumber-html-reporter": "^3.6.2",
+    "ts-node": "^10.9.2"
+  }
+}
