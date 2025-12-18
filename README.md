@@ -1,7 +1,34 @@
-<h1>Playwright with Typescript - Cucumber - BDD</h1> <br />
+# 🧪 Playwright BDD Automation Framework
+
+This project is an end-to-end UI automation framework built using **Playwright**, **TypeScript**, and **Cucumber (BDD)**.  
+It follows the **Page Object Model (POM)** design pattern to ensure scalability, readability, and maintainability.
+
+The framework supports **tag-based execution**, **robust hooks management**, **automatic screenshots on failure**, and **HTML reporting**, making it suitable for real-world automation projects.
+
+---
+
+## 🚀 Key Features
+
+- ✅ Playwright with TypeScript for fast and reliable UI automation
+- ✅ Cucumber BDD with Gherkin feature files
+- ✅ Page Object Model (POM) architecture
+- ✅ Robust hooks with proper browser lifecycle management
+- ✅ Screenshot capture and attachment for failed scenarios
+- ✅ Clean, scalable project structure
+- ✅ CI/CD ready
+
+---
+
+## 🛠 Tech Stack
+
+- **Playwright**
+- **TypeScript**
+- **Cucumber (BDD)**
+- **Node.js**
+- **Multi-cucumber HTML reporting**
 
 
-<h3>Installation </h3> <br/>
+## 🛠 Installation
 <ul>
 <li>CTRL + SHIFT + P => Install Playwright => OK from VS code</li>
 <li> or run npm i playwright@latest in the terminal </li>
@@ -12,8 +39,7 @@
   npm i fs-extra -D <br/>
 </ul>
 
-<h3>Running the Test </h3> <br/>
-Open the terminal from the VS code and run the below command <br/>
-npm test
+## Running tests
+- npm test
 
 
